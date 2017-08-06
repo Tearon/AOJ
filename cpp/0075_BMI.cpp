@@ -6,6 +6,7 @@ int main(){
     char c;
     while(cin >> s >> c >> w >> c >> h){
         double BMI = w / (h * h);
-        if(BMI >= 25.0) cout << s << endl;
+        if(BMI >= 25.0) 
+            cout << s << endl;
     }
 }
