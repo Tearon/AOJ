@@ -1,12 +1,10 @@
 #include<iostream>
-#include<algorithm>
-#include<cmath>
 using namespace std;
 
 int main(){
-  int n;
+  int n, cnt;
   while(cin >> n){
-    int a, b, c, d, cnt = 0;
+    cnt = 0;
     for(int a = 0; a < 10; a++){
       for(int b = 0; b < 10; b++){
         for(int c = 0; c < 10; c++){
