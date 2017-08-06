@@ -2,9 +2,7 @@
 #include<algorithm>
 #define N 101
 using namespace std;
-
 int main(){
-
   int i, m, a[N] = {};
   while(cin >> i)
     a[i]++;
